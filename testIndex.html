@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="form">
+      <h1>Use the "," to separate values!</h1>
+      <p>Add numbers for available array:</p>
+      <input class="form" name="availableArray" type="text" value="" />
+      <p>Add numbers for allowed array:</p>
+      <input class="form" name="allowedArray" type="text" value="" />
+      <p>Add numbers for preffered array:</p>
+      <input class="form" name="prefferedArray" type="text" value="" />
+
+      <p>
+        <input
+          class="but"
+          name="action"
+          type="button"
+          value="Count"
+          onClick="GetResultFromArray()"
+        />
+      </p>
+
+      <p>Returns:</p>
+      <input class="form" name="res" type="text" value="" />
+    </form>
+    <script src="/testScript.js"></script>
+  </body>
+</html>
